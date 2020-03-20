@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title> The Legend of Zelda Quiz </title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+			<div class="col-sm-9 col-md-8 col-lg-7">
+        <form>
+					<div class="form-group">
+	          <h1>The Legend of Zelda Quiz</h1>
+
+	          <p>Here's a fun little quiz about the history of <i>The Legend of Zelda</i> Quiz and the lore behind it. Select the best answer(s) to each question.</p>
+
+						<p>For more information about the series, <a href="https://en.wikipedia.org/wiki/The_Legend_of_Zelda">click here</a> to read its Wikipedia page.</p>
+					</div>
+
+          <div class="form-group">
+            <div>Who is the creator of <i>The Legend of Zelda</i> who was inspired by his childhood adventures and the popular tale of Peter Pan? (Select one)</div>
+
+            <div class="form-check">
+              <label class="form-check-label">
+								<input class="form-check-input" type="radio" name="creator" value="YoshikiOkamoto"> Yoshiki Okamoto
+							</label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+								<input class="form-check-input" type="radio" name="creator" value="TakashiTezuka"> Takashi Tezuka
+							</label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+								<input class="form-check-input" type="radio" name="creator" value="ShigeruMiyamoto"> Shigeru Miyamoto
+							</label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+								<input class="form-check-input" type="radio" name="creator" value="KojiKondo"> Koji Kondo
+							</label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-control-label" for="releaseyear">
+              In what year was the first <i>The Legend of Zelda</i> game released?
+            </label>
+            <select class="form-control" name="releaseyear" id="releaseyear">
+							<option>Select Year</option>
+              <option>1995</option>
+              <option>1986</option>
+              <option>1978</option>
+              <option>1988</option>
+              <option>1982</option>
+              <option>1991</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-control-label" for="protagonist">
+              Who is the main playable protagonist in <i>The Legend of Zelda</i> series?
+						</label>
+							<input class="form-control" type="text" name="protagonist" size=100 id="protagonist">
+          </div>
+
+          <div class="form-group">
+            <label class="form-control-label" for="horse">
+              What is the name of the main protagonist's horse which was featured in multiple games including Ocarina of Time and Twilight Princess?
+						</label>
+							<input class="form-control" type="text" name="horse" size=100 id="horse">
+          </div>
+
+          <div class="form-group">
+            <div>Which of the following ARE <i>The Legend of Zelda</i> titles? Select all that apply. </div>
+
+            <div class="form-check">
+              <label class="form-check-label">
+								<input class="form-check-input" type="checkbox" name="gametitle" value="Oracle of Seasons"> Oracle of Seasons
+							</label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+								<input class="form-check-input" type="checkbox" name="gametitle" value="Zelda's Mask"> Zelda's Mask
+							</label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+								<input class="form-check-input" type="checkbox" name="gametitle" value="Oracle of Ages"> Oracle of Ages
+							</label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+								<input class="form-check-input" type="checkbox" name="gametitle" value="Midnight Sword"> Midnight Sword
+							</label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+								<input class="form-check-input" type="checkbox" name="gametitle" value="Oracle of Secrets"> Oracle of Secrets
+							</label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+								<input class="form-check-input" type="checkbox" name="gametitle" value="Dawn Princess"> Dawn Princess
+							</label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+								<input class="form-check-input" type="checkbox" name="gametitle" value="Wind Waker"> Wind Waker
+							</label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+								<input class="form-check-input" type="checkbox" name="gametitle" value="A Link to the Future"> A Link to the Future
+							</label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+								<input class="form-check-input" type="checkbox" name="gametitle" value="Ocarina of Time"> Ocarina of Time
+							</label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+								<input class="form-check-input" type="checkbox" name="gametitle" value="Link's Awakening"> Link's Awakening
+							</label>
+            </div>
+          </div>
+
+        <div class="form-group">
+          <label class="form-control-label" for="favoritegame">
+            Tell us about your favorite <i>The Legend of Zelda</i> game and what made you enjoy it so much.
+          </label>
+          <textarea class="form-control" name="favoritegame" rows="5" cols="50" id="favoritegame"> </textarea>
+        </div>
+
+          <div class="form-group">
+            <input class="btn btn-success" type="submit" value="Submit">
+            <input class="btn btn-danger" type="reset" value="Reset Quiz">
+          </div>
+        </form>
+			</div>
+    </div>
+  </div>
+
+  <script src="js/jquery.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
